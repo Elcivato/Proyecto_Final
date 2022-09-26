@@ -104,6 +104,231 @@
   color: darkgrey;
 }
 
+.burguer_product {
+  display: flex;
+  align-items: flex-end;
+  width: 98vw;
+  border-style: solid;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-top: 200px;
+  color: white;
+}
+.burguer_product .burguer_product_photo {
+  height: 500px;
+  width: 650px;
+}
+.burguer_product .burguer_product_description {
+  display: inline-block;
+  padding: 1rem;
+  margin-top: 40px;
+  padding: 50px 70px;
+  font-family: "Oswald", sans-serif;
+}
+.burguer_product .burguer_product_btn {
+  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 80px 250px;
+  padding: 30px 70px;
+  text-shadow: 0 1.5px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 10px rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.burguer_product .burguer_product_btn:hover {
+  background-color: rgb(27, 119, 27);
+}
+.burguer_product .burguer_product_btn:active {
+  color: black;
+  text-shadow: 0 1.5px 0 rgba(0, 0, 0, 0.3);
+  background-color: rgb(22, 75, 22);
+}
+.burguer_product .btn-color {
+  color: white;
+  background-color: green;
+}
+
+.pizza_product {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 98vw;
+  border-style: solid;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-top: 200px;
+  color: white;
+}
+.pizza_product .pizza_product_photo {
+  height: 500px;
+  width: 650px;
+}
+.pizza_product .pizza_product_description {
+  display: inline-block;
+  padding: 1rem;
+  margin-top: 40px;
+  padding: 50px 70px;
+  font-family: "Oswald", sans-serif;
+}
+.pizza_product .pizza_product_btn {
+  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 80px 250px;
+  padding: 30px 70px;
+  text-shadow: 0 1.5px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 10px rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.pizza_product .pizza_product_btn:hover {
+  background-color: rgb(27, 119, 27);
+}
+.pizza_product .pizza_product_btn:active {
+  color: black;
+  text-shadow: 0 1.5px 0 rgba(0, 0, 0, 0.3);
+  background-color: rgb(22, 75, 22);
+}
+.pizza_product .btn-color {
+  color: white;
+  background-color: green;
+}
+
+.salad_product {
+  display: flex;
+  width: 98vw;
+  border-style: solid;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-top: 200px;
+  color: white;
+}
+.salad_product .salad_product_photo {
+  height: 500px;
+  width: 650px;
+}
+.salad_product .salad_product_description {
+  display: inline-block;
+  padding: 1rem;
+  margin-top: 40px;
+  padding: 50px 30px;
+  font-family: "Oswald", sans-serif;
+}
+.salad_product .salad_product_btn {
+  display: inline-block;
+  font-size: 30px;
+  width: 360px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 80px 250px;
+  padding: 35px 100px;
+  text-shadow: 0 1.5px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 10px rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.salad_product .salad_product_btn:hover {
+  background-color: rgb(27, 119, 27);
+}
+.salad_product .salad_product_btn:active {
+  color: black;
+  text-shadow: 0 1.5px 0 rgba(0, 0, 0, 0.3);
+  background-color: rgb(22, 75, 22);
+}
+.salad_product .btn-color {
+  color: white;
+  background-color: green;
+}
+
+.sandwich_product {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 98vw;
+  border-style: solid;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-top: 200px;
+  color: white;
+}
+.sandwich_product .sandwich_product_photo {
+  height: 500px;
+  width: 650px;
+}
+.sandwich_product .sandwich_product_description {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 50px 25px;
+  font-family: "Oswald", sans-serif;
+}
+.sandwich_product .sandwich_product_btn {
+  display: inline-block;
+  font-size: 30px;
+  width: 360px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 80px 250px;
+  padding: 35px 100px;
+  text-shadow: 0 1.5px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 10px rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sandwich_product .sandwich_product_btn:hover {
+  background-color: rgb(27, 119, 27);
+}
+.sandwich_product .sandwich_product_btn:active {
+  color: black;
+  text-shadow: 0 1.5px 0 rgba(0, 0, 0, 0.3);
+  background-color: rgb(22, 75, 22);
+}
+.sandwich_product .btn-color {
+  color: white;
+  background-color: green;
+}
+
+.hotdog_product {
+  display: flex;
+  width: 98vw;
+  border-style: solid;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-top: 200px;
+  color: white;
+}
+.hotdog_product .hotdog_product_photo {
+  height: 500px;
+  width: 650px;
+}
+.hotdog_product .hotdog_product_description {
+  display: inline-block;
+  padding: 1rem;
+  margin-top: 40px;
+  padding: 50px 35px;
+  font-family: "Oswald", sans-serif;
+}
+.hotdog_product .hotdog_product_btn {
+  display: inline-block;
+  font-size: 30px;
+  width: 360px;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 80px 250px;
+  padding: 35px 100px;
+  text-shadow: 0 1.5px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 10px rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.hotdog_product .hotdog_product_btn:hover {
+  background-color: rgb(27, 119, 27);
+}
+.hotdog_product .hotdog_product_btn:active {
+  color: black;
+  text-shadow: 0 1.5px 0 rgba(0, 0, 0, 0.3);
+  background-color: rgb(22, 75, 22);
+}
+.hotdog_product .btn-color {
+  color: white;
+  background-color: green;
+}
+
 .wp_container {
   display: flex;
   justify-content: flex-end;
