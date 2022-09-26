@@ -1,0 +1,76 @@
+.imagenes_contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    .main_image_1, .main_image_2 {
+        border-radius: 40px;
+        padding-top: 5ch;
+        padding-bottom: 25ch;
+        width: 40vw;
+        height: 90vh;
+        object-fit: cover;
+        transition: all 1s;
+    }
+}
+.main_group_images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px 25px;
+
+    #main_paralax_1 {
+        position: relative;
+        border: 10px;
+        height: 80ch;
+        margin: 60px;
+        padding: 30px;
+        color: beige;
+        text-align: center;
+        background-image: url(./assets/images/Restaurant\ photo.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;  
+        }
+        #main_paralax_1 :hover {
+            color: gray;
+            transition: all .5s;
+    }
+
+
+    .main_paralax_2 {
+        position: relative;
+        border: 10px;
+        height: 80ch;
+        margin: 60px;
+        padding: 30px;
+        color: beige;
+        text-align: center;
+        background-image: url(https://images.pexels.com/photos/1927383/pexels-photo-1927383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: local;
+    }
+    .background_paralax_2:hover {
+        color: gray;
+        transition: all .5s;
+    }
+
+    .main_paralax_3 {
+        position: relative;
+        border: 10px;
+        height: 80ch;
+        margin: 60px;
+        padding: 30px;
+        color: beige;
+        background-image: url(./assets/images/Restaurant\ photo\ 2\ .jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .background_paralax_3:hover {
+            color: gray;
+            transition: all .5s;
+        }
+}
+

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background: rgb(11,25,11);
+    background: linear-gradient(90deg, rgba(11,25,11,1) 0%, rgba(20,17,27,1) 46%, rgba(43,5,10,1) 89%);
+    color: white;
+    font-style: italic;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+
+body {
+    background: rgb(11,25,11);
+    background: linear-gradient(90deg, rgba(11,25,11,1) 0%, rgba(20,17,27,1) 46%, rgba(43,5,10,1) 89%);
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
