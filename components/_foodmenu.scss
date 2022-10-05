@@ -1,11 +1,11 @@
 .burguer_product {
     display: flex;
-    align-items:flex-end ;
+    align-items: flex-end;
     width: 98vw;
     border-style: solid;
     border-radius: 30px;
     overflow: hidden;
-    margin-top: 200px;
+    margin: 200px 30px;
     color: white;
 
     .burguer_product_photo {
@@ -51,11 +51,12 @@
 .pizza_product {
     display: flex;
     flex-direction: row-reverse;
-    width: 98vw;
+    align-items: flex-end;
+    width: 95vw;
     border-style: solid;
     border-radius: 30px;
     overflow: hidden;
-    margin-top: 200px;
+    margin: 200px 15px;
     color: white;
 
     .pizza_product_photo {
@@ -99,11 +100,12 @@
 
 .salad_product {
     display: flex;
-    width: 98vw;
+    align-items: flex-end;
+    width: 95vw;
     border-style: solid;
     border-radius: 30px;
     overflow: hidden;
-    margin-top: 200px;
+    margin: 200px 15px;
     color: white;
 
     .salad_product_photo {
@@ -149,11 +151,12 @@
 .sandwich_product {
     display: flex;
     flex-direction: row-reverse;
-    width: 98vw;
+    align-items: flex-end;
+    width: 95vw;
     border-style: solid;
     border-radius: 30px;
     overflow: hidden;
-    margin-top: 200px;
+    margin: 200px 15px;
     color: white;
 
     .sandwich_product_photo {
@@ -198,12 +201,13 @@
 
 .hotdog_product {
     display: flex;
-    width: 98vw;
-    border-style: solid;
-    border-radius: 30px;
-    overflow: hidden;
-    margin-top: 200px;
-    color: white;
+  align-items: flex-end;
+  width: 95vw;
+  border-style: solid;
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 200px 15px;
+  color: white;
 
     .hotdog_product_photo {
         height: 500px;

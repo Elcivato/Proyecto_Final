@@ -159,7 +159,7 @@ form .btn-green:active {
   border-style: solid;
   border-radius: 30px;
   overflow: hidden;
-  margin-top: 200px;
+  margin: 200px 30px;
   color: white;
 }
 .burguer_product .burguer_product_photo {
@@ -200,11 +200,12 @@ form .btn-green:active {
 .pizza_product {
   display: flex;
   flex-direction: row-reverse;
-  width: 98vw;
+  align-items: flex-end;
+  width: 95vw;
   border-style: solid;
   border-radius: 30px;
   overflow: hidden;
-  margin-top: 200px;
+  margin: 200px 15px;
   color: white;
 }
 .pizza_product .pizza_product_photo {
@@ -214,10 +215,16 @@ form .btn-green:active {
 .pizza_product .pizza_product_description {
   display: inline-block;
   padding: 1rem;
-  margin-top: 40px;
-  padding: 50px 70px;
-  font-family: "Oswald", sans-serif;
+  margin: 80px 0px;
+  margin-left: 10px;
+  font-family: "Oswald", sans-serif;    
 }
+
+.p_products_description {
+  margin: 10px 30px;
+  margin-left: 5px;
+}
+
 .pizza_product .pizza_product_btn {
   display: inline-block;
   font-size: 30px;
@@ -244,11 +251,12 @@ form .btn-green:active {
 
 .salad_product {
   display: flex;
-  width: 98vw;
+  align-items: flex-end;
+  width: 95vw;
   border-style: solid;
   border-radius: 30px;
   overflow: hidden;
-  margin-top: 200px;
+  margin: 200px 15px;
   color: white;
 }
 .salad_product .salad_product_photo {
@@ -259,7 +267,7 @@ form .btn-green:active {
   display: inline-block;
   padding: 1rem;
   margin-top: 40px;
-  padding: 50px 30px;
+  padding: 50px 70px;
   font-family: "Oswald", sans-serif;
 }
 .salad_product .salad_product_btn {
@@ -290,11 +298,12 @@ form .btn-green:active {
 .sandwich_product {
   display: flex;
   flex-direction: row-reverse;
-  width: 98vw;
+  align-items: flex-end;
+  width: 95vw;
   border-style: solid;
   border-radius: 30px;
   overflow: hidden;
-  margin-top: 200px;
+  margin: 200px 15px;
   color: white;
 }
 .sandwich_product .sandwich_product_photo {
@@ -303,8 +312,9 @@ form .btn-green:active {
 }
 .sandwich_product .sandwich_product_description {
   display: inline-block;
+  padding: 1rem;
   margin-top: 40px;
-  padding: 50px 25px;
+  padding: 50px 70px;
   font-family: "Oswald", sans-serif;
 }
 .sandwich_product .sandwich_product_btn {
@@ -334,11 +344,12 @@ form .btn-green:active {
 
 .hotdog_product {
   display: flex;
-  width: 98vw;
+  align-items: flex-end;
+  width: 95vw;
   border-style: solid;
   border-radius: 30px;
   overflow: hidden;
-  margin-top: 200px;
+  margin: 200px 15px;
   color: white;
 }
 .hotdog_product .hotdog_product_photo {
@@ -349,7 +360,7 @@ form .btn-green:active {
   display: inline-block;
   padding: 1rem;
   margin-top: 40px;
-  padding: 50px 35px;
+  padding: 50px 70px;
   font-family: "Oswald", sans-serif;
 }
 .hotdog_product .hotdog_product_btn {
@@ -417,4 +428,4 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
-}/*# sourceMappingURL=styles.css.map */
+}

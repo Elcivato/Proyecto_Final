@@ -92,6 +92,7 @@
 
     .imagenes_contenedor {
         display: grid;
+        width: 95vw;
         grid-template-columns: repeat(1, 1fr);
     }
 
