@@ -78,3 +78,154 @@ footer {
 .nav_menu_option:hover {
     color: darkgrey;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1440px) {
+    .header_logo {
+      left: 43%;
+      height: 180px;
+      width: 180px;
+    }
+    .nav_menu_option {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .imagenes_contenedor {
+      height: -webkit-fit-content;
+      height: -moz-fit-content;
+      height: fit-content;
+      margin-bottom: 1rem;
+    }
+    .main_image_1 {
+      position: relative;
+      width: 40vw;
+      height: 75vh;
+    }
+    .main_image_2 {
+      position: relative;
+      width: 30vw;
+      height: 75vh;
+    }
+    .wp_container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .wp {
+      position: relative;
+      height: 5vh;
+      width: 5vh;
+    }
+  }
+  @media (max-width: 1000px) {
+    .imagenes_contenedor {
+      display: flex;
+      gap: 25px;
+    }
+    .main_image_1 {
+      width: 40vw;
+    }
+    .main_image_2 {
+      width: 40vw;
+    }
+    .main_group_images {
+      grid-template-columns: repeat(1, 1fr);
+      width: 95vw;
+    }
+    .main_group_images > * {
+      height: 30vh;
+    }
+    #main_paralax_1 {
+      height: 30vh;
+    }
+    .wp {
+      position: relative;
+      height: 5vh;
+      width: 5vh;
+    }
+  }
+  @media (max-width: 768px) {
+    header {
+      margin-top: 0;
+    }
+    .header_logo {
+      margin-top: 45px;
+      height: 70px;
+      width: 80px;
+    }
+    .nav_menu_option {
+      margin: 10px;
+    }
+    .wp {
+      position: relative;
+      height: 5vh;
+      width: 5vh;
+    }
+  }
+  @media (max-width: 425px) {
+    .header_logo {
+      position: absolute;
+      top: -40px;
+      left: 90px;
+    }
+    .nav_menu_option {
+      margin: 0 20px;
+    }
+    .imagenes_contenedor {
+      display: grid;
+      width: 95vw;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .main_image_1 {
+      width: 90vw;
+      margin-left: 23px;
+      margin-bottom: 20px;
+    }
+    .main_image_2 {
+      width: 90vw;
+      margin-left: 23px;
+      margin-top: 10px;
+    }
+    #main_paralax_1 {
+      width: 80vw;
+      margin-left: 10px;
+    }
+    .main_paralax_2 {
+      width: 80vw;
+      margin-left: 10px;
+    }
+    .main_paralax_3 {
+      width: 80vw;
+      margin-left: 10px;
+    }
+  }
+  @media (max-width: 375px) {
+    .header_logo {
+      position: absolute;
+      left: 37%;
+    }
+    .nav_menu_option {
+      margin: 0 15px;
+    }
+  }
+  @media (max-width: 320px) {
+    .header_logo {
+      position: absolute;
+      left: 34%;
+    }
+    .nav_menu_option {
+      margin: 0 5px;
+    }
