@@ -1,7 +1,0 @@
-@media (max-width: 1024) {
-    .imagenes_contenedor {
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        margin: 0;
-    }
-}

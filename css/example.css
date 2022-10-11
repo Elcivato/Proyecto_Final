@@ -37,13 +37,22 @@
 
 @media (max-width:1024px) {
     .header_logo {
-        left: 43%;
-        margin-top: 100px;
+        left: 39%;
+        height: 180px;
+        width: 180px;
+        margin-top: 70px;
     }
 
     .navegation_menu {
         width: 100vw;
+        margin-top: 50px;
         align-items: flex-end;
+    }
+
+    .nav_menu_option.menu_option {
+        font-size: 40px;
+        left: 3%;
+        margin: 80px 50px;
     }
     
     .imagenes_contenedor {
@@ -57,3 +66,34 @@
     }
 }
 
+
+@media (max-width: 768px) {
+    .header_logo {
+        left: 40%;
+        height: 8vh;
+        width: 15vw;
+}
+
+    .navegation_menu {
+        margin-top: -10px;
+        width: 100vw;
+    }
+
+    .nav_menu_option.menu_option {
+        margin: 0px 45px;
+        font-size: 38px;
+    }
+
+    .imagenes_contenedor .main_image_1, .imagenes_contenedor .main_image_2 {
+        width: 95vw;
+        margin: 40px 5px;
+    }
+
+    .main_group_images {
+        margin: 20px -45px;
+    }
+
+    .background_paralax_3 {
+        text-align: center;
+    }
+}
