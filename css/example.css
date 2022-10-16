@@ -75,8 +75,13 @@
         top: 0;
     }
 
+    body {
+        background: black;
+    }
+
     .header_logo {
-        left: 40%;
+        margin-top: 100px;
+        left: 45%;
         height: 8vh;
         width: 15vw;
 }
@@ -95,14 +100,66 @@
     .imagenes_contenedor .main_image_1, .imagenes_contenedor .main_image_2 {
         width: 95vw;
         margin-top: 80px;
-        margin-left: 50px;
+        margin-left: 65px;
     }
 
     .main_group_images {
-        margin: 20px -45px;
+        margin: 20px -10px;
     }
 
     .background_paralax_3 {
         text-align: center;
+    }
+}
+
+
+@media (max-width: 425px) {
+    body {
+        background: black;
+        width: 100vw;       
+    }
+
+    .header_logo {
+        width: 80px;
+        height: 100px;
+        left: 42%;
+    }
+
+    .navegation_menu .nav_menu_option {
+        left: -8%;
+        margin-top: -20px;
+        font-size: 20px ;
+    }
+
+    .main_image_1, .main_image_2 {
+        margin-right: 75px;
+    }
+
+    .main_paralax_1, .main_paralax_2, .main_paralax_3 {
+        width: 99vw;
+    }
+
+    .main_group_images {
+        margin-left: -53px ;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .navegation_menu .nav_menu_option {
+        font-size: 17px ;
+        left: -12%;
+    }
+}
+
+@media (max-width:320px) {
+    .navegation_menu .nav_menu_option {
+        font-size: 15px;
+        margin: 0px 20px;
+        left: 0%;
+    }
+
+    .imagenes_contenedor .main_image_1, .imagenes_contenedor .main_image_2 {
+        margin-right: 95px ;
     }
 }
